@@ -7,7 +7,7 @@ import DepartmentUtility from "./DepartmentUtility";
 import { useRouter } from "next/navigation";
 
 export default function Department({ department }) {
-  console.log(department)
+  console.log(department);
   // For Scroll Behaviour Smmoth
   // useEffect(() => {
   //   window.scrollTo({
@@ -22,7 +22,10 @@ export default function Department({ department }) {
 
   React.useEffect(() => {
     // window is accessible here.
-    window.scrollTo(0, 0);
+    if (typeof window !== "undefined") {
+      // browser code
+      window.scrollTo(0, 0);
+    }
   }, []);
 
   if (department === "all-departments") {
@@ -39,5 +42,5 @@ export default function Department({ department }) {
     );
   } else if (department in Departments) {
     return <DepartmentUtility department={department} />;
-  };
+  }
 }

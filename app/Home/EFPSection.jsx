@@ -1,4 +1,4 @@
-import './home.css'
+import "./home.css";
 import React from "react";
 import PropTypes from "prop-types";
 import Link from "next/link";
@@ -10,8 +10,12 @@ const images = [
   "/assets/images/home-projects-img.png",
 ];
 
-export function EFPCard(props) {
-  const { Image, Title, Content, To } = props;
+export function EFPCard({
+  Image = "",
+  Title = "Events",
+  Content = "Lorem ipsum dolor sit, sjhd lawb jhwfgebhifs b aufgeprug egfhapji bghjbgv chid nwe maxime ducimus debitis voluptatem.",
+  To = "/",
+}) {
   return (
     <Link href={To}>
       <div className="home-card">
@@ -30,14 +34,14 @@ export function EFPCard(props) {
   );
 }
 
-EFPCard.defaultProps = {
+/* EFPCard.defaultProps = {
   Image: "",
   Title: "Events",
   Content:
     "Lorem ipsum dolor sit, sjhd lawb jhwfgebhifs b aufgeprug egfhapji bghjbgv chid nwe maxime ducimus debitis voluptatem.",
   To: "/",
 };
-
+ */
 EFPCard.propTypes = {
   Title: PropTypes.string,
   Content: PropTypes.string,
