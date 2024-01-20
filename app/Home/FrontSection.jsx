@@ -45,7 +45,7 @@ export default function FrontSection({
             </div>
           </VisibilitySensor>
           <p className="soceity-info">{content}</p>
-          <Link className="lets-connect-button" href="/contacts">
+          <Link className="lets-connect-button" href="/Contact">
             Let's Connect
           </Link>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { EFPCard } from "../Home/EFPSection";
+
 /* import Image from "../../Assets2/Images/team-department-card-image.jpg"; */
 
 export default function DepartmentsSection() {

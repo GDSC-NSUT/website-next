@@ -21,7 +21,7 @@
 }
 
 .formDiv {
-    font-family: "Inter", sans-serif;
+    font-family: inherit;
     display: flex;
     flex-direction: column;
 }
@@ -46,7 +46,7 @@
     min-width: 55rem;
 }
 .formDiv form * {
-    font-family: "Inter", sans-serif;
+    font-family: inherit;
     font-size: 1.6rem;
     height: 4.2rem;
     padding: 1rem 1.4rem;
