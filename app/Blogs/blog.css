@@ -1,0 +1,28 @@
+.section {
+  height: calc(100vh - 217.5px);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h6 {
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 800px) {
+  .section {
+    height: calc(100vh - 205.5px);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    .section {
+      height: calc(100vh - 115.5px);
+    }
+  }

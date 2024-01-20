@@ -1,0 +1,131 @@
+.container {
+    font-size: 2rem;
+    padding: 6rem 7.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.topContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+}
+.iframeDiv {
+    flex: 1;
+}
+.iframeDiv iframe {
+    border-radius: 1rem;
+    height: 50rem;
+    width: 100%;
+}
+
+.formDiv {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.formTitle {
+    display: flex;
+    /* gap: 1rem; */
+    padding-bottom: 5rem;
+}
+.formDiv h2 {
+    font-size: 3.6rem;
+    font-weight: 400;
+}
+.formTitle lottie-player {
+    width: 6rem;
+    transform: translateY(-2rem);
+}
+.formDiv form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-width: 55rem;
+}
+.formDiv form * {
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    height: 4.2rem;
+    padding: 1rem 1.4rem;
+    resize: none;
+    width: 100%;
+    border-radius: 0.4rem;
+    outline: none;
+    border: 1px solid #b0b0b0;
+}
+.formDiv form *:focus {
+    border: 1px solid var(--google-blue);
+}
+
+.formDiv input[type="submit"] {
+    background-color: var(--google-blue);
+    color: white;
+    width: fit-content;
+    text-align: center;
+    height: 4rem;
+    padding-inline: 4rem;
+}
+
+.formDiv textarea {
+    height: 15rem;
+}
+.socials h3 {
+    font-weight: 400;
+    font-size: 2.4rem;
+    padding-bottom: 1.6rem;
+}
+.social > * {
+    width: 3.6rem;
+    height: 3.6rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.socials div {
+    display: flex;
+    gap: 1rem;
+}
+.social > *:hover {
+    scale: 1.2;
+}
+
+.linkedInCircle {
+    background-color: #0077b5;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.linkedInCircle svg {
+    width: 60%;
+    height: 60%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .topContainer {
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .formDiv {
+        align-items: center;
+    }
+    .formDiv form {
+        align-items: center;
+        min-width: 0;
+        width: 55rem;
+        max-width: 90vw;
+    }
+    .iframeDiv iframe {
+        width: 100vw;
+    }
+    .container {
+        align-items: center;
+    }
+    .socials {
+        text-align: center;
+    }
+}

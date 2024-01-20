@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "GDSC NSUT Orientation 2023-24",
+    "date": "August 28, 2023",
+    "description": "Learn about what we do and listen to some great experiences from our exemplary Team Leads. We will also have an important announcement at the end of the meeting, so register ASAP and start your journey with this global Google community. Register to attend the session, Now!",
+    "venue": "An online event",
+    "image": "orientation.jpg",
+    "coverImage": "orientation.jpg",
+    "organizer": "DSC NSUT"
+  },
+  {
+    "id": 2,
+    "name": "Deep Learning Sprint",
+    "date": "April 13, 2023",
+    "description": "A fun filled and informative deep learning sprint session.",
+    "venue": "Main Auditorium , Admin Block",
+    "image": "Deeplearning.jpg",
+    "coverImage": "Deeplearning.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Weights and Biases workshop",
+    "date": "April 4, 2023",
+    "description": "Look no further! Join us for an exciting workshop on Weights & Biases led by Ayush Thakur, a Machine Learning Engineer and TensorFlow advocate. Ayush will guide you through the ins and outs of experiment tracking and help you take your machine learning projects to the next level. Don't miss this opportunity to learn from a seasoned professional and gain invaluable skills for your future career in AI.Join us at 7:30 pm and get ready to level up your ML game!",
+    "venue": "An online event",
+    "image": "weightsandbiases.jpg",
+    "coverImage": "weightsandbiases.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Web Developement Launchpad",
+    "date": "April 4, 2023",
+    "description": "Are you an aspiring web developer looking for an opportunity to showcase your skills and launch your career? GDSC NSUT's Web Development Launchpad is the perfect event for you! Our team of developers will lead you through the process of building and launching your very own web application. This event is open to developers of all skill levels, so whether you're a beginner or an experienced developer, you're sure to find a challenge that will help you take your skills to the next level. During this event, you will learn about the latest trends and technologies in web development. You will also get a chance to connect with other developers, and receive constructive feedback on your project. So, don't miss out on this incredible opportunity to showcase your talent and launch your web development journey with GDSC NSUT's Web Development Launchpad! Click on the links given below to learn more.",
+    "venue": "Online Mode Google Meet",
+    "image": "webdev.jpg",
+    "coverImage": "webdev.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Flutter Forward Extented",
+    "date": "March 13, 2023",
+    "description": "GDSC NSUT is proud to present an exciting new workshop on Flutter Forward Extended! Flutter is a powerful and flexible framework for building high-performance mobile applications, and this workshop is designed to help students, developers, and tech enthusiasts learn more about how to use it effectively. Flutter Forward Extended is an extension of the Flutter Forward initiative, which is a program aimed at helping developers learn more about Flutter, build better apps, and connect with other developers in the Flutter community. During the workshop, attendees will learn about the fundamentals of Flutter development, including how to create custom widgets, manage state, and work with APIs. They will also learn about advanced topics like animations, layouts, and performance optimization. Additionally, they can participate in interactive coding challenges, network with other developers, and get feedback on their projects from experienced Flutter developers.",
+    "venue": "APJ-11, NSUT",
+    "image": "flutter_forward.jpg",
+    "coverImage": "flutter_forward.jpg"
+  },
+  {
+    "id": 6,
+    "name": "GDSC NSUT Orientation 2022-23",
+    "date": "January 18, 2023",
+    "description": "Learn about what we do and listen to some great experiences from our exemplary Team Leads. We will also have an important announcement at the end of the meeting, so register ASAP and start your journey with this global Google community. Register to attend the session, Now!",
+    "venue": "Main Auditorium , Admin Block",
+    "image": "orientation2022.jpg",
+    "coverImage": "orientation2022.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Machine Learning Challenge",
+    "date": "September 3, 2022",
+    "description": "This Competition is organised by Google Developers Student Club (GDSC) - NSUT in collaboration with Artificial Intelligence Research Group (AIRG) - NSUT. It is only for the students of the Netaji Subhas University of Technology. It is open to students of all years and all batches.",
+    "venue": "Main Auditorium , Admin Block",
+    "image": "nsut_ai.jpg",
+    "coverImage": "nsut_ai.jpg"
+  }
+]
