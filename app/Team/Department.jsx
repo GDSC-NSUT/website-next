@@ -28,7 +28,7 @@ export default function Department({ department }) {
     }
   }, []);
 
-  if (department === "all-departments") {
+  if (department == "all-departments") {
     return (
       <>
         <DepartmentUtility department="web-development" />
