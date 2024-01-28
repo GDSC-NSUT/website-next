@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "name": "UX Design Workshop",
+    "date": "August 28, 2022",
+    "description": "A workshop based on ux design basics so that you can start your journey. It will educate you about the very basics related to user experience design.",
+    "venue": "An online event",
+    "image": "orientation.jpg",
+    "coverImage": "events-cover.jpg",
+    "organizer": "DSC NSUT",
+    "registrationEndDate": "20 Jul, 2022",
+    "info": [
+      {
+        "title": "Eligibility Criteria",
+        "description": "Anyone can apply"
+      },
+      {
+        "title": "Mode of hosting",
+        "description": "Completely Online"
+      },
+      {
+        "title": "Location",
+        "description": "Delhi, NCR"
+      },
+      {
+        "title": "Start Date",
+        "description": "22nd June, 2022"
+      },
+      {
+        "title": "End Date",
+        "description": "28th June, 2022"
+      },
+      {
+        "title": "Contact",
+        "description": "chaitanyagiri2@gmail.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Google Seminar",
+    "date": "April 13, 2022",
+    "description": "Google Seminar",
+    "venue": "Main Auditorium , Admin Block",
+    "image": "Deeplearning.jpg",
+    "coverImage": "events-cover.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Kickstart Workshop",
+    "date": "19 | 07 | 2022",
+    "description": "Google Seminar",
+    "venue": "SAC Building",
+    "image": "orientation.jpg",
+    "coverImage": "events-cover.jpg"
+  },
+  {
+    "id": 4,
+    "name": "GSOC Practice",
+    "date": "02 | 08 | 2022",
+    "description": "Google Seminar",
+    "venue": "Online Mode Google Meet",
+    "image": "orientation.jpg",
+    "coverImage": "events-cover.jpg"
+  },
+  {
+    "id": 5,
+    "name": "BlockChain Webinar",
+    "date": "20 | 08 | 2022",
+    "description": "Google Seminar",
+    "venue": "Main Auditorium , Admin Block",
+    "image": "orientation.jpg",
+    "coverImage": "events-cover.jpg"
+  },
+  {
+    "id": 6,
+    "name": "UX Design Workshop",
+    "date": "August 28, 2022",
+    "description": "A workshop based on ux design basics so that you can start your journey. It will educate you about the very basics related to user experience design.",
+    "venue": "An online event",
+    "image": "orientation.jpg",
+    "coverImage": "events-cover.jpg"
+  }
+]

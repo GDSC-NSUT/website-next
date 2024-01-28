@@ -1,0 +1,96 @@
+/* CSS for Fotter */
+.footer {
+    width: 100vw;
+    height: 150px;
+    background-color: #1a1a1a;
+}
+
+.footer .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    width: min(1260px, calc(100% - 140px));
+    height: 100%;
+    margin: auto;
+}
+
+.footer .vertical-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.footer .footer-logo {
+    height: 30px;
+    width: 60px;
+}
+
+.footer .society-name {
+    font-size: 2rem;
+    color: rgba(242, 242, 242, 75%);
+}
+
+.footer .college-name {
+    font-size: 1.5rem;
+    color: rgba(242, 242, 242, 50%);
+}
+
+.footer .social {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    color: rgba(242, 242, 242, 75%);
+    gap: 10px;
+    top: 20px;
+}
+
+.footer .social a.instagram {
+    font-size: 20px;
+}
+
+.footer .social a.facebook {
+    font-size: 18px;
+}
+
+.footer .social a.linkedin {
+    position: relative;
+    bottom: 1px;
+    font-size: 20px;
+}
+
+.footer .social a.behance {
+    font-size: 20px;
+}
+
+.footer .nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    width: 450px;
+    font-size: 16px;
+    color: rgba(242, 242, 242, 75%);
+}
+
+@media screen and (max-width: 1100px) {
+    .footer .nav-links {
+        display: none;
+    }
+    .footer .wrapper {
+        justify-content: center;
+    }
+    .footer .social {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        height: fit-content;
+        padding: 15px 0;
+    }
+    .footer .society-name,
+    .footer .college-name {
+        display: none;
+    }
+}

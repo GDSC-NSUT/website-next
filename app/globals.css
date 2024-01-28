@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root {
+    --google-green: #0f9d58;
+    --google-red: #ea4335;
+    --google-blue: #4285f4;
+    --google-yellow: #fbbc04;
+}
+
+html {
+    overflow-x: hidden;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    /* background-image: url("../../Assets/Images/bg.png"); */
+    /* background-image: radial-gradient(rgba(0, 0, 0, 0.1) 10%, transparent 10%); */
+    background-size: 15px 15px;
+}
+
