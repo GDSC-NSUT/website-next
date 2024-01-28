@@ -5,8 +5,6 @@ import { FaInstagram, FaFacebookF, FaBehance } from "react-icons/fa";
 import { RiLinkedinFill } from "react-icons/ri";
 import Image from 'next/image';
 
-
-
 export default function Footer() {
   return (
     <footer className="footer">

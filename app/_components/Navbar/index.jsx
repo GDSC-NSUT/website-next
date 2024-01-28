@@ -53,8 +53,6 @@ function Navbar() {
   const location = usePathname();
   const dispatch = useAppDispatch();
 
-  console.log(location);
-
   useEffect(() => {
     setExpanded(false);
     dispatch(setIndex(links.findIndex((x) => location === x.path)));

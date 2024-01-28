@@ -1,7 +1,7 @@
 import "./Home/home.css";
 import "./globals.css";
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
+import Navbar from "@/_components/Navbar";
+import Footer from "@/_components/Footer";
 import StoreProvider from "./StoreProvider";
 import { Inter } from "next/font/google";
 

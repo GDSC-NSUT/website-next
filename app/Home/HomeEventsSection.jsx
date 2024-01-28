@@ -14,8 +14,6 @@ export default function HomeEventsSection() {
         { key: 5, Image: '/Assets2/Images/feed/orientation2022.jpg', title: "Orientation 2022-23", desc: "Orientation session for the batch of 2022-23." }
       ];
 
-    console.log(data.length);
-
     return (
         <>
             {

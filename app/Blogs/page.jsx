@@ -1,11 +1,15 @@
 import React from 'react'
-import './blog.css'
+import "./TrendingBlogsSection"
+import TrendingBlogsSection from './TrendingBlogsSection'
+import LatestBlogsSection from './LatestBlogsSection'
+import supabase from "../../utils/supabase";
 
-export default function Blogs() {
+export default async function Blogs() {
+  const { data: posts } = await supabase.from('blogs').select();
   return (
-    <div className='section'>
-      <h1>BLOGS</h1>
-      <h6>Comming Soon !!!</h6>
+    <div>     
+      <TrendingBlogsSection data={posts.slice(0,5)}/>
+      <LatestBlogsSection blogData={posts}/>
     </div>
   )
 }
